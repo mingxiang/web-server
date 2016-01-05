@@ -18,7 +18,7 @@ app.use(middleware.logger);
 
 app.get('/about', function(req,res){
   message = 'Name: Tham Ming Xiang\n'
-          + 'Age: 24\n'
+          + 'Age: 23\n'
           + 'School: NUS\n'
   res.send(message);
   //res.send('test');
